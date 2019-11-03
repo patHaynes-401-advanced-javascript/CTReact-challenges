@@ -4,11 +4,12 @@
   "description": "Insertion Sort # Challenge Description  Take sudeo code, convert it to an actual function and test.",
   "main": "index.js",
   "dependencies": {
+    "eslint": "^6.6.0",
     "jest": "^24.9.0"
   },
   "devDependencies": {},
   "scripts": {
-    "lint": "eslint \"**/*.js\"",
+    "lint": "eslint .",
     "test": "jest --verbose --coverage",
     "test:watch": "jest --watchAll --verbose"
   },
