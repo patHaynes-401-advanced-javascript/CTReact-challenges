@@ -1,4 +1,4 @@
-const mergeSort = require('../merge-sort');
+const mergeSort = require('../Challenges/mergeSort');
 
 describe('Merge Sort Algorithm', () => {
   it('sorts an algorithm', () => {

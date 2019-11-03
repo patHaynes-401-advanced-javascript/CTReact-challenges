@@ -1,4 +1,4 @@
-module.export = function mergeSort(arr) {
+function mergeSort(arr) {
 
   let n = arr.length;
   if(n > 1) {
@@ -9,14 +9,14 @@ module.export = function mergeSort(arr) {
     mergeSort(right);
     merge(left, right, arr);
   }
-};
+}
 
 function merge(left, right, arr) {
   let i = 0;
   let j = 0;
   let k = 0;
 
-  while(1 < left.length && j < right.length) {
+  while(i < left.length && j < right.length) {
     if(left[i] <= right[j]) {
       arr[k] = left[i];
       i++;
@@ -43,3 +43,4 @@ function merge(left, right, arr) {
   }
 }
 
+module.exports = mergeSort;
