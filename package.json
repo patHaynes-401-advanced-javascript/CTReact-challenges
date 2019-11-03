@@ -1,0 +1,27 @@
+{
+  "name": "ctreact-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage --passWithNoTests",
+    "test:watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patHaynes-401-advanced-javascript/CTReact-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patHaynes-401-advanced-javascript/CTReact-challenges/issues"
+  },
+  "homepage": "https://github.com/patHaynes-401-advanced-javascript/CTReact-challenges#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
