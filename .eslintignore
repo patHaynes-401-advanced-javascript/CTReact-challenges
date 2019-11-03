@@ -1,6 +1,5 @@
-**/node_modules/*
-**/*.min.js
-**/vendor/*
-**/coverage/*
-**/build/*
-**/docs/*
+node_modules
+vendor
+coverage
+build
+docs
