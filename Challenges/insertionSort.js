@@ -5,7 +5,7 @@ module.exports = function insertionSort(arr) {
     let temp = arr[i];
 
     while(j >= 0 && temp < arr[j]) {
-      arr[j + a] = arr[j];
+      arr[j + 1] = arr[j];
       j--;
     }
     arr[j + 1] = temp;

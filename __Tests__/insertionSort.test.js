@@ -1,4 +1,4 @@
-const insertionSort = require('./insertionSort');
+const insertionSort = require('../Challenges/insertionSort');
 
 describe('Date add testing', () => {
 
