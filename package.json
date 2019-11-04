@@ -1,0 +1,27 @@
+{
+  "name": "CTReact-challenges",
+  "version": "1.0.0",
+  "description": "Insertion Sort # Challenge Description  Take sudeo code, convert it to an actual function and test.",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --verbose --coverage",
+    "test:watch": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patHaynes-401-advanced-javascript/CTReact-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patHaynes-401-advanced-javascript/CTReact-challenges/issues"
+  },
+  "homepage": "https://github.com/patHaynes-401-advanced-javascript/CTReact-challenges#readme"
+}
